@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart Spend</string>
+    <string name="email">Email Address</string>
+    <string name="pasword">Password</string>
+    <string name="name">Full Name</string>
+    <string name="pinHint">Pin Number</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_analysis">Analysis</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="savings">Savings</string>
+
+    <string name="category_prompt">Select category</string>
+    <string name="category_spinner_description">Select transaction category</string>
+    <string name="backup">Backup &amp; Restore</string>
+
+</resources>

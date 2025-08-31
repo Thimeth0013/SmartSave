@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".EnterPinActivity">
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="437dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/mainlogo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Welcome Back"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/poppins"
+            android:text="Enter your PIN"
+            android:textAlignment="center"
+            android:textColor="@color/greyUnder"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/pin_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/inputfield"
+            android:ems="10"
+            android:hint="Enter 4-digit PIN"
+            android:inputType="number"
+            android:maxLength="4"
+            android:paddingStart="15dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:textColorHint="@color/inputFieldHint" />
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/blue"
+            android:text="Continue ➔"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="20sp"
+            app:cornerRadius="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

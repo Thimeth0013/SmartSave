@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_list">
+        <item>Food</item>
+        <item>Health</item>
+        <item>Utility</item>
+        <item>Shopping</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Salary</item>
+        <item>Bonus</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>USD ($)</item>
+        <item>EUR (€)</item>
+        <item>GBP (£)</item>
+        <item>INR (₹)</item>
+        <item>JPY (¥)</item>
+        <item>LKR (Rs.)</item>
+    </string-array>
+
+    <string-array name="filter_options">
+        <item>All Transactions</item>
+        <item>Income Only</item>
+        <item>Expenses Only</item>
+    </string-array>
+</resources>

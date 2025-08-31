@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.smartsave.Home_Fragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_" />
+
+    <fragment
+        android:id="@+id/history"
+        android:name="com.example.smartsave.History_Fragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history_" />
+
+    <fragment
+        android:id="@+id/analysis"
+        android:name="com.example.smartsave.Fragment_Analysis"
+        android:label="Analysis"
+        tools:layout="@layout/fragment__analysis" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.smartsave.Fragment_Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment__settings" />
+
+</navigation>
