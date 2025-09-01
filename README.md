@@ -14,7 +14,7 @@ With its simple yet informative UI, users can easily **track income, expenses, a
 
 ## 🎨 Design Preview  
 The UI was designed in **Figma** and published on Behance.  
-👉 [View Design on Behance](your-behance-link-here)  
+👉 [View Design on Behance]([your-behance-link-here](https://www.behance.net/gallery/233755199/Smart-Spend))  
 
 ---
 
@@ -29,7 +29,7 @@ The UI was designed in **Figma** and published on Behance.
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/smart-spend.git
+   gh repo clone Thimeth0013/SmartSave
 
 ---
 
