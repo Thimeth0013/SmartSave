@@ -14,8 +14,7 @@ With its simple yet informative UI, users can easily **track income, expenses, a
 
 ## 🎨 Design Preview  
 The UI was designed in **Figma** and published on Behance.  
-👉 [View Design on Behance]([your-behance-link-here](https://www.behance.net/gallery/233755199/Smart-Spend))  
-
+👉 [View Design on Behance](https://www.behance.net/gallery/233755199/Smart-Spend)
 ---
 
 ## 🛠️ Tech Stack  
